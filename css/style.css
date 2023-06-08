@@ -663,7 +663,7 @@ p:not(:last-child) {
 }
 
 .services {
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
 }
 
 .services__title {
@@ -2341,6 +2341,10 @@ button.swiper-pagination-bullet {
         align-self: start;
   }
 
+  .services {
+    padding-bottom: 2rem;
+  }
+
   .services__item {
     border-bottom: 1px solid #DCD1BB;
   }
@@ -2484,6 +2488,12 @@ button.swiper-pagination-bullet {
 @media (max-width: 47.99875em) and (any-hover: none) {
   .icon-menu {
     cursor: default;
+  }
+}
+
+@media (max-width: 29.99875em) {
+  .item-people::before {
+    top: 30%;
   }
 }
 
